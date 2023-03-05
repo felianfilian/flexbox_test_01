@@ -12,10 +12,9 @@
 }
 
 .flex-container {
-  flex-wrap: wrap;
+  display: flex;
 
   background-color: #fff;
-  display: flex;
 }
 
 .box {
@@ -24,7 +23,7 @@
 
 .one {
   background-color: red;
-  flex-basis: 400px;
+  flex: 400px;
 }
 
 .two {
