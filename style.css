@@ -20,20 +20,19 @@
 
 .box {
   height: 100px;
-  min-width: 400px;
 }
 
 .one {
   background-color: red;
-  flex-grow: 1;
+  flex-basis: 400px;
 }
 
 .two {
   background-color: blue;
-  flex-grow: 2;
+  flex-basis: 300px;
 }
 
 .three {
   background-color: green;
-  flex-grow: 3;
+  flex-basis: 600px;
 }
