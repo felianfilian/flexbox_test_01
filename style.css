@@ -12,26 +12,28 @@
 }
 
 .flex-container {
+  flex-wrap: wrap;
+
   background-color: #fff;
   display: flex;
 }
 
 .box {
   height: 100px;
-  width: 500px;
+  min-width: 400px;
 }
 
 .one {
   background-color: red;
-  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 .two {
   background-color: blue;
-  flex-shrink: 2;
+  flex-grow: 2;
 }
 
 .three {
   background-color: green;
-  flex-shrink: 3;
+  flex-grow: 3;
 }
