@@ -24,5 +24,9 @@ nav a:hover {
 @media screen and (min-width: 768px) {
   nav ul {
     display: flex;
+    justify-content: flex-start;
+  }
+  nav li {
+    flex: 1 1 0;
   }
 }
