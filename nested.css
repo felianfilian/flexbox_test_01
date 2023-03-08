@@ -1,3 +1,18 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 nav {
   background-color: #333;
 }
@@ -32,19 +47,18 @@ a.fb {
   background-size: 80%;
 }
 
-.social {
-  max-width: 80px;
-
-  margin: 0 auto;
-}
-
 .social a {
   text-indent: -10000px;
 }
 
+.social {
+  max-width: 80px;
+  margin: 0 auto;
+}
+
 nav ul.social {
-  display: flex;
   flex: 1 1 0;
+  display: flex;
 }
 
 nav ul.social li {
@@ -61,5 +75,8 @@ nav ul.social li {
   nav {
     display: flex;
     justify-content: space-between;
+  }
+  .social {
+    margin: 0;
   }
 }
