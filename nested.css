@@ -22,7 +22,15 @@ nav a:hover {
   background-color: #555;
 }
 
-/* new code */
+a.tw {
+  background: url("img/tw.png") no-repeat center;
+  background-size: 80%;
+}
+
+a.fb {
+  background: url("img/fb.png") no-repeat center;
+  background-size: 80%;
+}
 
 @media screen and (min-width: 768px) {
   nav ul {
