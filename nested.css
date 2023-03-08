@@ -42,6 +42,15 @@ a.fb {
   text-indent: -10000px;
 }
 
+nav ul.social {
+  display: flex;
+  flex: 1 1 0;
+}
+
+nav ul.social li {
+  flex: 1 1 0;
+}
+
 @media screen and (min-width: 768px) {
   nav ul {
     display: flex;
