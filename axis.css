@@ -16,12 +16,17 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: column;
+  flex-flow: row;
+  align-items: center;
+
+  height: 600px;
 
   background-color: #fff;
 }
 
 .box {
+  flex: 0 0 100px;
+
   height: 100px;
   min-width: 100px;
 }
