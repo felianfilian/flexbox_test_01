@@ -67,5 +67,10 @@ nav ul.social li {
   }
 
   article {
+    margin-bottom: 20px;
+    padding: 10px;
+
+    box-sizing: border-box;
+    background-color: #fff;
   }
 }
