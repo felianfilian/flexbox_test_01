@@ -33,6 +33,7 @@ nav a {
 nav a:hover {
   background-color: #555;
 }
+
 a.tw {
   background: url(img/tw.png) no-repeat center;
   background-size: 80%;
@@ -61,16 +62,30 @@ nav ul.social li {
   flex: 1 1 0;
 }
 
+#blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 20px;
+}
+
+article {
+  flex: 0 1 32%;
+
+  margin-bottom: 20px;
+  padding: 10px;
+
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+article h2 {
+  margin: 10px 0;
+
+  font-size: 20px;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
-  #blocks {
-    margin: 20px;
-  }
-
-  article {
-    margin-bottom: 20px;
-    padding: 10px;
-
-    box-sizing: border-box;
-    background-color: #fff;
-  }
 }
